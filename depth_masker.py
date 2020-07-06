@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python2
 def depth_masker(infile,outfile,min_depth,max_depth,map_qual):
 	yui=open(infile,'r')
 	new=open(outfile,'a')
