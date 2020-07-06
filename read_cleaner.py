@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python2
 def paired_quality_filter(infile1, infile2, paired1,paired2,unpaired1,unpaired2,quality,length):
 	yui1=open(infile1,'r')
 	yui2=open(infile2,'r')
