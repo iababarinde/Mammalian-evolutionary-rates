@@ -12,7 +12,7 @@ Capybara_filtered.1.fastq -u Capybara_filtered_unpaired.1.fastq –v / Capybara_
 read_cleaner.py (without any option) or read_cleaner.py -h will give the help for the usage
 
 
-1. Depth masker masks out unreliable genomic positions.
+2. Depth masker masks out unreliable genomic positions.
 
 depth_masker.py -v Capybara_20Q_50bp_d3D30.vcf -o Capybara_20Q_50bp_d3D30.fa  -d 3 /
  –D 30 -Q 30 
